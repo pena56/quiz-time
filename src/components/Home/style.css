@@ -1,0 +1,35 @@
+.home {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+.home__title {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.home__title-welcome {
+  font-size: 1.5rem;
+}
+
+.home__title > h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.home__title > p {
+  margin: 10px 0;
+}
+
+.home__cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 20px;
+  flex-wrap: wrap;
+}

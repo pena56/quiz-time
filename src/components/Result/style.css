@@ -1,0 +1,25 @@
+.result {
+  color: #fff;
+  text-align: center;
+}
+
+.result__title {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.result__title > span {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.result__point {
+  font-size: 1.3rem;
+}
+
+.result__score {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
