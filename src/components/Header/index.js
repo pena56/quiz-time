@@ -17,7 +17,7 @@ function Index() {
           .collection('scores')
           .where('user_id', '==', user.id)
           .onSnapshot((snapshot) => {
-            const data = snapshot.docs[0].data();
+            const data = snapshot?.docs[0].data();
             dispatch({
               type: 'SYNC_SCORE',
               score: data.score,
